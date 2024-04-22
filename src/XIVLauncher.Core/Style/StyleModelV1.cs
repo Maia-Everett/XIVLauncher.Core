@@ -26,7 +26,7 @@ public class StyleModelV1 : StyleModel
         Name = "Dalamud Standard",
 
         Alpha = 1,
-        WindowPadding = ImGuiHelpers.GetScaledVector2(new Vector2(8, 8)),
+        WindowPadding = ImGuiHelpers.GetScaled(new Vector2(8, 8)),
         WindowRounding = ImGuiHelpers.GetScaled(4),
         WindowBorderSize = 0,
         WindowTitleAlign = new Vector2(0, 0.5f),
@@ -35,13 +35,13 @@ public class StyleModelV1 : StyleModel
         ChildBorderSize = ImGuiHelpers.GetScaled(1),
         PopupRounding = 0,
         PopupBorderSize = 0,
-        FramePadding = ImGuiHelpers.GetScaledVector2(new Vector2(4, 3)),
+        FramePadding = ImGuiHelpers.GetScaled(new Vector2(4, 3)),
         //FrameRounding = 4,
         FrameRounding = 0,
         FrameBorderSize = 0,
-        ItemSpacing = ImGuiHelpers.GetScaledVector2(new Vector2(8, 4)),
-        ItemInnerSpacing = new Vector2(4, 4) * ImGuiHelpers.GlobalScale,
-        CellPadding = ImGuiHelpers.GetScaledVector2(new Vector2(4, 2)),
+        ItemSpacing = ImGuiHelpers.GetScaled(new Vector2(8, 4)),
+        ItemInnerSpacing = ImGuiHelpers.GetScaled(new Vector2(4, 4)),
+        CellPadding = ImGuiHelpers.GetScaled(new Vector2(4, 2)),
         TouchExtraPadding = new Vector2(0, 0),
         IndentSpacing = ImGuiHelpers.GetScaled(21),
         ScrollbarSize = ImGuiHelpers.GetScaled(16),
@@ -53,7 +53,7 @@ public class StyleModelV1 : StyleModel
         TabBorderSize = 0,
         ButtonTextAlign = new Vector2(0.5f, 0.5f),
         SelectableTextAlign = new Vector2(0, 0),
-        DisplaySafeAreaPadding = ImGuiHelpers.GetScaledVector2(new Vector2(3, 3)),
+        DisplaySafeAreaPadding = ImGuiHelpers.GetScaled(new Vector2(3, 3)),
 
         Colors = new Dictionary<string, Vector4>
         {
@@ -123,7 +123,7 @@ public class StyleModelV1 : StyleModel
         Name = "Dalamud Classic",
 
         Alpha = 1,
-        WindowPadding = ImGuiHelpers.GetScaledVector2(new Vector2(8, 8)),
+        WindowPadding = ImGuiHelpers.GetScaled(new Vector2(8, 8)),
         WindowRounding = ImGuiHelpers.GetScaled(4),
         WindowBorderSize = 0,
         WindowTitleAlign = new Vector2(0, 0.5f),
@@ -132,12 +132,12 @@ public class StyleModelV1 : StyleModel
         ChildBorderSize = ImGuiHelpers.GetScaled(1),
         PopupRounding = 0,
         PopupBorderSize = 0,
-        FramePadding = ImGuiHelpers.GetScaledVector2(new Vector2(4, 3)),
+        FramePadding = ImGuiHelpers.GetScaled(new Vector2(4, 3)),
         FrameRounding = ImGuiHelpers.GetScaled(4),
         FrameBorderSize = 0,
-        ItemSpacing = ImGuiHelpers.GetScaledVector2(new Vector2(8, 4)),
-        ItemInnerSpacing = ImGuiHelpers.GetScaledVector2(new Vector2(4, 4)),
-        CellPadding = ImGuiHelpers.GetScaledVector2(new Vector2(4, 2)),
+        ItemSpacing = ImGuiHelpers.GetScaled(new Vector2(8, 4)),
+        ItemInnerSpacing = ImGuiHelpers.GetScaled(new Vector2(4, 4)),
+        CellPadding = ImGuiHelpers.GetScaled(new Vector2(4, 2)),
         TouchExtraPadding = new Vector2(0, 0),
         IndentSpacing = ImGuiHelpers.GetScaled(21),
         ScrollbarSize = ImGuiHelpers.GetScaled(16),
@@ -149,7 +149,7 @@ public class StyleModelV1 : StyleModel
         TabBorderSize = 0,
         ButtonTextAlign = new Vector2(0.5f, 0.5f),
         SelectableTextAlign = new Vector2(0, 0),
-        DisplaySafeAreaPadding = ImGuiHelpers.GetScaledVector2(new Vector2(3, 3)),
+        DisplaySafeAreaPadding = ImGuiHelpers.GetScaled(new Vector2(3, 3)),
 
         Colors = new Dictionary<string, Vector4>
         {
